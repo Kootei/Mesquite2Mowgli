@@ -1,0 +1,107 @@
+Mesquite version 2.74 (build 550)   Date: Fri Sep 27 11:48:37 CEST 2013
+Window refers to project with home file TreeFicusHopeMes.nex
+File path: D:\cinara\
+=======================
+
+Tree window
+Showing Stored Trees for taxa "Taxa"
+Original Tree:  Imported tree 0 (id 6, version 214)
+
+Tree Description:  ((((Ficus_aurea:20.54058493,Ficus_americana:20.54058493):11.80513064,((Ficus_glumosa:21.83930655,Ficus_burttdavyi:21.83930655):3.035513968,(Ficus_bizanae:11.81066836,Ficus_ottoniifolia:11.81066836):13.06415215):7.470895054):19.631038,((Ficus_macrophylla:23.03956458,(Ficus_destruens:10.67549938,Ficus_crassipes:10.67549938):12.3640652):20.36835073,(Ficus_annulata:34.01595733,(Ficus_calophylla:15.54805263,Ficus_consociata:15.54805263):18.4679047):9.391957977):8.568838264):16.80397355,((((Ficus_odoardii:20.65590431,(Ficus_punctata:3.633701823,Ficus_ruginervia:3.633701823):17.02220248):20.92707301,(Ficus_aurata:22.17293028,Ficus_grossularioides:22.17293028):19.41004704):12.24772419,(Ficus_parietalis:22.4289217,Ficus_tinctoria:22.4289217):31.40177981):5.53161995,((Ficus_sycomorus:8.767237552,Ficus_vallischoudae:8.767237552):40.3155444,Ficus_mollior:49.08278194):10.27953951):9.418405667);
+Tree with node numbers:
+                      ,=============6 Ficus aurea
+                 ,===5|
+                 |    `=============7 Ficus americana
+                 |
+            ,===4|         ,=======10 Ficus glumosa
+            |    |    ,===9|
+            |    |    |    `=======11 Ficus burtt davyi
+            |    `===8|
+            |         |    ,=======13 Ficus bizanae
+            |         `==12|
+       ,===3|              `=======14 Ficus ottoniifolia
+       |    |
+       |    |         ,============17 Ficus macrophylla
+       |    |    ,==16|
+       |    |    |    |    ,=======19 Ficus destruens
+       |    |    |    `==18|
+       |    `==15|         `=======20 Ficus crassipes
+       |         |
+       |         |    ,============22 Ficus annulata
+       |         `==21|
+       |              |    ,=======24 Ficus calophylla
+       |              `==23|
+======2|                   `=======25 Ficus consociata
+       |
+       |                   ,=======30 Ficus odoardii
+       |              ,==29|
+       |              |    |    ,==32 Ficus punctata
+       |              |    `==31|
+       |         ,==28|         `==33 Ficus ruginervia
+       |         |    |
+       |         |    |    ,=======35 Ficus aurata
+       |    ,==27|    `==34|
+       |    |    |         `=======36 Ficus grossularioides
+       |    |    |
+       |    |    |    ,============38 Ficus parietalis
+       `==26|    `==37|
+            |         `============39 Ficus tinctoria
+            |
+            |         ,============42 Ficus sycomorus
+            |    ,==41|
+            `==40|    `============43 Ficus vallischoudae
+                 |
+                 `=================44 Ficus mollior
+
+
+
+
+--------------- Trace Character History ---------------
+
+Character: continent
+Marginal prob. recon. with model Mk1 (est.) [rate 0.00372958 [est.]]  -log L.:21.16779233 (Opt.:  width 0.0)  Reporting likelihoods as Proportional Likelihoods; Threshold when decisions made: 2.0 Calc. by Maximum likelihood reconstruct (Generic categorical) (id# 1131)
+
+node 2:  Oriental: 1.0
+node 3:  Oriental: 1.0
+node 4:  Afrotropics: 1.0
+node 5:  Neotropics: 1.0
+node 6:  Neotropics: 1.0
+node 7:  Neotropics: 1.0
+node 8:  Afrotropics: 1.0
+node 9:  Afrotropics: 1.0
+node 10:  Afrotropics: 1.0
+node 11:  Afrotropics: 1.0
+node 12:  Afrotropics:1.0
+node 13:  Afrotropics: 1.0
+node 14:  Afrotropics: 1.0
+node 15:  Oriental: 1.0
+node 16:  Australasia: 1.0
+node 17:  Australasia: 1.0
+node 18:  Australasia: 1.0
+node 19:  Australasia: 1.0
+node 20:  Australasia: 1.0
+node 21:  Oriental: 1.0
+node 22:  Oriental: 1.0
+node 23:  Oriental: 1.0
+node 24:  Oriental: 1.0
+node 25:  Oriental: 1.0
+node 26:  Oriental: 1.0
+node 27:  Oriental: 1.0
+node 28:  Oriental: 1.0
+node 29:  Oriental: 1.0
+node 30:  Australasia: 1.0
+node 31:  Oriental: 1.0
+node 32:  Oriental: 1.0
+node 33:  Oriental: 1.0
+node 34:  Oriental: 1.0
+node 35:  Oriental: 1.0
+node 36:  Oriental: 1.0
+node 37:  Oriental: 1.0
+node 38:  Oriental: 1.0
+node 39:  Oriental: 1.0
+node 40:  Oriental: 1.0
+node 41:  Afrotropics: 1.0
+node 42:  Afrotropics: 1.0
+node 43:  Afrotropics: 1.0
+node 44:  Australasia: 1.0
+

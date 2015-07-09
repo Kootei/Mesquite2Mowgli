@@ -1,0 +1,35 @@
+Fichier(s) au format Mesquite.
+
+Arbre Newick : 
+((A:1.0,B:1.0):2.0,(C:2.0,(D:1.0,E:1.0):1.0):1.0):1.0;
+
+Tableau 'Pere' : 
+3 a pour pere : 2	
+4 a pour pere : 3	
+5 a pour pere : 3	
+6 a pour pere : 2	
+7 a pour pere : 6	
+8 a pour pere : 6	
+9 a pour pere : 8	
+10 a pour pere : 8	
+
+Tableau 'Fils' : 
+2 a pour fils : 3
+2 a pour fils : 6
+3 a pour fils : 4
+3 a pour fils : 5
+6 a pour fils : 7
+6 a pour fils : 8
+8 a pour fils : 9
+8 a pour fils : 10
+
+Tableau 'NoeudZone' : 
+2 dans la zone : asia
+3 dans la zone : asia
+4 dans la zone : america
+5 dans la zone : america
+6 dans la zone : asia
+7 dans la zone : america
+8 dans la zone : africa
+9 dans la zone : africa
+10 dans la zone : africa

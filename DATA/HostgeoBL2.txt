@@ -1,0 +1,33 @@
+Mesquite version 2.75 (build 564)   Date: Tue Nov 04 17:25:22 CET 2014
+Window refers to project with home file HosmesquBrL.txt
+File path: C:\Users\jousseli\Documents\cinara\LIRMM cospé\jeuxdonnéessimulé\
+=======================
+
+Tree window
+Showing Stored Trees for taxa "Taxa"
+Original Tree:  host (id 1, version 28)
+
+Tree Description:  ((A:1.0,B:1.0):2.0,(C:2.0,(D:1.0,E:1.0):1.0):1.0):1.0;
+Tree with node numbers:
+            ,========4 A
+       ,===3|
+       |    `========5 B
+======2|
+       |    ,========7 C
+       `===6|
+            |    ,===9 D
+            `===8|
+                 `==10 E
+
+
+--------------- Trace Character History ---------------
+
+node 2:  asia: 1.0
+node 3:  asia: 1.0
+node 4:  asia: 0.05, america: 0.65, africa: 0.30
+node 5:  asia: 0.2495, america: 0.75, africa: 0.0005
+node 6:  asia: 0.50, america: 0.25, africa: 0.25
+node 7:  america: 1.0
+node 8:  africa: 1.0
+node 9:  africa: 1.0
+node 10:  africa: 1.0

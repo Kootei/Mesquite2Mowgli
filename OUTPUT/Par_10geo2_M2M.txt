@@ -1,0 +1,64 @@
+Fichier(s) au format Mesquite.
+
+Arbre Newick : 
+(((((c:1.0,b:1.0):2.0,((f:1.0,g:1.0):1.0,(d:1.0,e:1.0):1.0):1.0):0.5,a:3.5):0.5,(h:1.0,j:1.0):3.0):1.0,i:5.0):1.0;
+
+Tableau 'Pere' : 
+2 a pour pere : 19	
+3 a pour pere : 14	
+4 a pour pere : 2	
+5 a pour pere : 3	
+6 a pour pere : 3	
+7 a pour pere : 14	
+8 a pour pere : 5	
+9 a pour pere : 5	
+10 a pour pere : 6	
+11 a pour pere : 10	
+12 a pour pere : 10	
+13 a pour pere : 6	
+14 a pour pere : 2	
+15 a pour pere : 13	
+16 a pour pere : 13	
+17 a pour pere : 4	
+18 a pour pere : 19	
+20 a pour pere : 4	
+
+Tableau 'Fils' : 
+2 a pour fils : 14
+2 a pour fils : 4
+3 a pour fils : 5
+3 a pour fils : 6
+4 a pour fils : 17
+4 a pour fils : 20
+5 a pour fils : 9
+5 a pour fils : 8
+6 a pour fils : 13
+6 a pour fils : 10
+10 a pour fils : 11
+10 a pour fils : 12
+13 a pour fils : 15
+13 a pour fils : 16
+14 a pour fils : 3
+14 a pour fils : 7
+19 a pour fils : 2
+19 a pour fils : 18
+Tableau 'NoeudZone' : 
+2 dans la zone : asia
+3 dans la zone : africa
+4 dans la zone : america
+5 dans la zone : africa
+6 dans la zone : africa
+7 dans la zone : asia
+8 dans la zone : africa
+9 dans la zone : africa
+10 dans la zone : america
+11 dans la zone : america
+12 dans la zone : america
+13 dans la zone : africa
+14 dans la zone : asia
+15 dans la zone : africa
+16 dans la zone : africa
+17 dans la zone : america
+18 dans la zone : asia
+19 dans la zone : asia
+20 dans la zone : america

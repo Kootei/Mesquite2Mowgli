@@ -1,0 +1,106 @@
+Mesquite version 2.74 (build 550)   Date: Fri Sep 27 11:45:33 CEST 2013
+Window refers to project with home file TreePollHopemes.nex
+File path: D:\cinara
+=======================
+
+Tree window
+Showing Stored Trees for taxa "Taxa"
+Original Tree:  Imported tree 0 (id 1, version 214)
+
+Tree Description:  ((((((((0926_01w:12.74775909,1871_01w:12.74775909):11.94129073,1664_01w:24.68904982):10.27262276,((2615_01w:11.45687894,2614_01w:11.45687894):21.49339099,(1937_01w:16.99859104,2619_01w:16.99859104):15.95167889):2.011402657):3.271016088,(8030_01aw:14.39005316,8024_01aw:14.39005316):23.84263552):12.10665676,((1416_02w:14.47509024,1410_01w:14.47509024):2.651543679,1397_01w:17.12663392):33.21271152):4.665651282,(2556_01w:23.39548365,0967_01w:23.39548365):31.60951307):15.80762492,(1376_01w:33.64318506,(8239_01aw:16.39395021,1905_01w:16.39395021):17.24923485):37.16943657):4.336272349,((2312_01w:59.68537265,(1929_01w:17.71505769,1532_06w:17.71505769):41.97031495):9.319170047,(1864_01w:28.48805765,1868_01w:28.48805764):40.51648504):6.144351297);
+Tree with node numbers:
+                                          ,==10 0926 01w
+                                     ,===9|
+                                ,===8|    `==11 1871 01w
+                                |    |
+                                |    `=======12 1664 01w
+                           ,===7|
+                           |    |         ,==15 2615 01w
+                           |    |    ,==14|
+                           |    |    |    `==16 2614 01w
+                           |    `==13|
+                      ,===6|         |    ,==18 1937 01w
+                      |    |         `==17|
+                      |    |              `==19 2619 01w
+                      |    |
+                      |    |    ,============21 8030 01aw
+                 ,===5|    `==20|
+                 |    |         `============22 8024 01aw
+                 |    |
+                 |    |         ,============25 1416 02w
+                 |    |    ,==24|
+            ,===4|    `==23|    `============26 1410 01w
+            |    |         |
+            |    |         `=================27 1397 01w
+            |    |
+       ,===3|    |    ,======================29 2556 01w
+       |    |    `==28|
+       |    |         `======================30 0967 01w
+       |    |
+       |    |    ,===========================32 1376 01w
+       |    `==31|
+       |         |    ,======================34 8239 01aw
+======2|         `==33|
+       |              `======================35 1905 01w
+       |
+       |         ,===========================38 2312 01w
+       |    ,==37|
+       |    |    |    ,======================40 1929 01w
+       |    |    `==39|
+       `==36|         `======================41 1532 06w
+            |
+            |    ,===========================43 1864 01w
+            `==42|
+                 `===========================44 1868 01w
+
+
+
+--------------- Trace Character History ---------------
+
+Character: geo
+Marginal prob. recon. with model Mk1 (est.) [rate 0.00483308 [est.]]  -log L.:23.56933991 (Opt.:  width 0.0)  Reporting likelihoods as Proportional Likelihoods; Threshold when decisions made: 2.0 Calc. by Maximum likelihood reconstruct (Generic categorical) (id# 927)
+
+node 2:  Oriental: 1.0
+node 3:  Oriental: 1.0
+node 4:  Oriental: 1.0
+node 5:  Oriental: 1.0
+node 6:  Oriental: 1.0
+node 7:  Oriental: 1.0
+node 8:  Oriental: 1.0
+node 9:  Oriental: 1.0
+node 10:  Oriental: 1.0
+node 11:  Oriental: 1.0
+node 12:  Oriental: 1.0
+node 13:  Afrotropics: 1.0
+node 14:  Afrotropics: 1.0
+node 15:  Afrotropics: 1.0
+node 16:  Afrotropics: 1.0
+node 17:  Afrotropics: 1.0
+node 18:  Afrotropics: 1.0
+node 19:  Afrotropics: 1.0
+node 20:  Neotropics: 1.0
+node 21:  Neotropics: 1.0
+node 22:  Neotropics: 1.0
+node 23:  Australasia: 1.0
+node 24:  Australasia: 1.0
+node 25:  Australasia: 1.0
+node 26:  Australasia: 1.0
+node 27:  Australasia: 1.0
+node 28:  Oriental: 1.0
+node 29:  Oriental: 1.0
+node 30:  Oriental: 1.0
+node 31:  Oriental: 1.0
+node 32:  Australasia: 1.0
+node 33:  Oriental: 1.0
+node 34:  Oriental: 1.0
+node 35:  Oriental: 1.0
+node 36:  Oriental: 1.0
+node 37:  Oriental: 1.0
+node 38:  Australasia: 1.0
+node 39:  Afrotropics: 1.0
+node 40:  Afrotropics: 1.0
+node 41:  Afrotropics: 1.0
+node 42:  Oriental: 1.0
+node 43:  Oriental: 1.0
+node 44:  Oriental: 1.0
+

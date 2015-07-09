@@ -1,0 +1,57 @@
+Mesquite version 2.75 (build 564)   Date: Tue Mar 31 11:08:41 CEST 2015
+Window refers to project with home file Par_10mesq.nex
+File path: C:\Users\jousseli\Documents\cinara\LIRMM_cospe\jeuxdonneessimule\newsimul\150401_10taxons\
+=======================
+
+Tree window
+Showing Stored Trees for taxa "Taxa"
+Original Tree:  DEFAULT ARBITRARY TREE (id 16, version 112)
+
+Tree Description:  (((((c:1.0,b:1.0):2.0,((f:1.0,g:1.0):1.0,(d:1.0,e:1.0):1.0):1.0):0.5,a:3.5):0.5,(h:1.0,j:1.0):3.0):1.0,i:5.0):1.0;
+Tree with node numbers:
+                           ,========9 c
+                      ,===5|
+                      |    `========8 b
+                      |
+                 ,===3|         ,==15 f
+                 |    |    ,==13|
+                 |    |    |    `==16 g
+                 |    `===6|
+            ,==14|         |    ,==11 d
+            |    |         `==10|
+            |    |              `==12 e
+       ,===2|    |
+       |    |    `==================7 a
+       |    |
+=====19|    |    ,=================17 h
+       |    `===4|
+       |         `=================20 j
+       |
+       `===========================18 i
+
+
+--------------- Trace Character History ---------------
+
+Character: geography
+Parsimony reconstruction (Unordered) [Steps: 3]
+
+node 2:  asia
+node 3:  africa
+node 4:  america
+node 5:  africa
+node 6:  africa
+node 7:  asia
+node 8:  africa
+node 9:  africa
+node 10:  america
+node 11:  america
+node 12:  america
+node 13:  africa
+node 14:  asia
+node 15:  africa
+node 16:  africa
+node 17:  america
+node 18:  asia
+node 19:  asia
+node 20:  america
+
