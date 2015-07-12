@@ -11,3 +11,10 @@ Pour l'utiliser :
 
 
 Rq : ne fonctionne pas avec un arbre de plus de 999 taxons.
+
+Pour compiler :
+
+	sous mac : clang++ -std=c++11 -stdlib=libc++ main.cpp -o Mesquite2Mowgli
+
+	sous ubuntu : g++ -std=c++11 main.cpp -o Mesquite2Mowgli
+

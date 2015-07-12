@@ -1,6 +1,3 @@
-// Compile sous mac : clang++ -std=c++11 -stdlib=libc++ main.cpp
-// Compile sous ubuntu : g++ -Wall -std=c++11 -c main.cpp | g++ main.o -o main
-
 #include "main.hpp" 
 
 using namespace std;
@@ -75,10 +72,12 @@ string lectureGraph (const char* fileName) {
 //recup zones geographiques inferees dans fichier Mesquite
 void lectureGeographie (const char* fileName) {
 	float meilleureProba;
-	int nbrNoeuds = (noeudsInferes (fileName));
-	bool mVraisemblance = (maximumVraisemblance (fileName));
-	string tabNoeudZone[nbrNoeuds+2]; //declaration +2 car pas d'indice 0/1
-		for (int l = 2; l<nbrNoeuds+2; l++) 
+	int nbrNoeuds = ( noeudsInferes (fileName) );
+	size_t tailleTab = ( nbrNoeuds+2 );
+	bool mVraisemblance = ( maximumVraisemblance (fileName));
+	//string tabNoeudZone[nbrNoeuds+2]; //declaration +2 car pas d'indice 0/1
+	vector<string> tabNoeudZone(tailleTab); // probleme compilation c++11 lorsque taille est une variable, remplacer tab par vector
+		for ( int l = 2; l<nbrNoeuds+2; l++ )
 			tabNoeudZone[l] = " ";	//initialisé a vide	
 	ifstream fichier(fileName, ios::in);
 	smatch match; // les differents groupes () dans la RegEx	
@@ -93,7 +92,9 @@ void lectureGeographie (const char* fileName) {
 					if ( regex_search(ss, match, patternNodeZoneScore) ) { //zone 'inference geographique' du fichier
 						if ( regex_search(ss, match, patternNodeZone) ) { //si match aire geo/noeud
 							int nodeTemp = stoi(match.str(1)); //convertion string/int
-							tabNoeudZone[nodeTemp] = match.str(2); //stock aire geo a l'indice du noeud
+							const string valeur = match.str(2);
+							//tabNoeudZone[nodeTemp] = match.str(2); // remplace tab par vector
+							tabNoeudZone.insert ( tabNoeudZone.begin()+nodeTemp, valeur ); //stock aire geo a l'indice du noeud
 						}//fin liaison noeud/zone*/			
 					}//fin donnee geographique
 				}//fin parcours fichier			
@@ -122,12 +123,16 @@ void lectureGeographie (const char* fileName) {
 			 					float probaTemp = stof(match.str(2)); // convertion string to float
 			 					if ( probaTemp > meilleureProba ) { //si nouvelle proba rencontree superieur a proba stockee
 			 						meilleureProba = probaTemp; //nouvelle proba devien meilleure proba
-			 						tabNoeudZone[nodeTemp] = match.str(1); //aire avec la nouvelle meilleure proba stockee
+									const string valeur = match.str(1);
+			 						//tabNoeudZone[nodeTemp] = match.str(1);
+									tabNoeudZone.insert ( tabNoeudZone.begin()+nodeTemp, valeur ); //aire avec la nouvelle meilleure proba stockee
       							} //fin comparaison proba
       						} //fin parcours de proba
       					} //fin cas multiple zones
       					else { //cas une unique zone
-							tabNoeudZone[nodeTemp] = match.str(2); //stock directement la zone (pas plusieurs choix)
+							const string valeur = match.str(2);
+							tabNoeudZone.insert ( tabNoeudZone.begin()+nodeTemp, valeur ); //stock directement la zone (pas plusieurs choix)
+							//tabNoeudZone[nodeTemp] = match.str(2); 
 						} //fin une seul zone				
 					}//fin recherche NodeZoneScore		
 				}//fin parcours fichier	

@@ -8,6 +8,7 @@
 #include <regex> //EXpression REGuliere
 #include <string> //fonctions pour string
 #include <string.h> //fonctions pour string
+#include <vector>
 
 //######### Variable globale ###########
 const int NbMaxNoeuds = 200;
